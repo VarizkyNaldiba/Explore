@@ -16,6 +16,7 @@
     }
   ],
   "buildCommand": "npm install && npm run build",
+  "outputDirectory": ".",
   "env": {
     "APP_ENV": "production",
     "APP_DEBUG": "false",
