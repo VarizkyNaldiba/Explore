@@ -8,14 +8,14 @@
   "routes": [
     {
       "src": "/build/(.*)",
-      "dest": "/public/build/$1"
+      "dest": "/my-wallet/public/build/$1"
     },
     {
       "src": "/(.*)",
       "dest": "/api/index.php"
     }
   ],
-  "buildCommand": "npm install && npm run build",
+  "buildCommand": "cd my-wallet && npm install && npm run build",
   "outputDirectory": ".",
   "env": {
     "APP_ENV": "production",
