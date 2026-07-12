@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "description": "Laravel 12 deployment on Vercel",
   "functions": {
     "api/index.php": {
       "runtime": "vercel-php@0.8.0"
